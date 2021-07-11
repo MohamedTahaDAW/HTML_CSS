@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 18</title>
+    <style>
+        * {box-sizing: border-box; margin: 0px; padding: 0px;}
+        @font-face {font-family: "fuente1"; src: url("AllertaStencil.ttf");}
+        @font-face {font-family: "fuente2"; src: url("KoHo.ttf");}
+        
+        body{
+            margin-top: 20px; margin-bottom: 20px; margin-right: auto; margin-left: auto;
+            width: 60%;
+            background-color: #E8E8E8;
+            font-family: fuente2;
+            font-size: 18px;
+        }
+        
+        #encabezado {
+            width: 100p%; height: 60px;
+            background-color: #5F060C;
+            color: #E8E8E8;
+            padding-top: 10px.
+            font-family: fuente1;
+            border-radius: 3px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        .superiores{
+            float: left;
+            width: 50%;
+            text-align: center;
+            Padding: 30px;
+        }
+        
+        .imagen{
+            border-radius: 3px;
+            padding-top: 20px; padding-bottom: 20px;
+        }
+        
+        h2{
+            font-family: fuente2;
+            color: #5F060C;
+        }
+        
+        #formularios{
+            float: left; position: relative;
+            width: 100%; height: 200px;
+        }
+        
+        fieldset{
+            float: left;
+            width: 50%; height: 200px;
+            text-align: center;
+            border-width: 1px; border-style: solid; border-color: dimgray;
+            padding-top: 10px; padding-bottom: 10px;
+        }
+        
+        legend{
+            font-size: 14px;
+        }
+        
+        p{
+            color:black;
+            font-size: 14px;
+        }
+        
+        input, textarea{
+            width: 200px; height: 30x; border-radius: 2px;
+        }
+        
+        #pie{
+            float: left;
+            position: relative;
+            text-align: center;
+            width: 100%;
+            margin-top: 30px;
+            background-color: #5F060C;
+            color: #E8E8E8;
+            border-radius: 3px;
+        }
+        
+        .bl{
+            color: #E8E8E8; font-size: 14px;
+        }
+        
+        .imgPie{
+            width: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="encabezado">
+        <h1>Bitácora Musical</h1>
+    </div>
+        
+    <div class="superiores">
+        <img src="imagen.jpg" class="imagen"> 
+    </div>
+    <div class="superiores">
+        <h2>HOMENAJE ONLINE A JEFF BUCKLEY</h2>
+        <p>Durante todos los días de esta semana haremos un tributo al cantante estadounidense fallecido en 1999. Considerada una de las mejores voces de todos los tiempos, su prematura desaparición y su indudable talento le han elevado a la categoría de mito de la música.</p>
+    </div>
+    
+    <div id="formularios">
+        <form>
+            <fieldset>
+                <legend align="center">Confirma tu asistencia</legend>
+                <p>Seleccionar día</p>
+                <input type="date"><br>
+                <input type="submit" value="Solicitar código zoom">    
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend align="center">Déjanos tu correo</legend>
+                <p>E-mail</p>
+                <input type="email" placeholder="correo@dominio.com">
+                <p>Comentario</p>
+                <textarea style="resize: none;"></textarea>
+            </fieldset>
+        </form>
+    </div>
+    
+    <div id="pie">
+        <p class="bl">También puedes seguirnos en</p>
+        <a href="https://facebook.com"><img src="fb.png" class="imgPie"></a>
+        <a href="https://instagram.com"><img src="instagram.png" class="imgPie"></a>
+        <a href="https://twitter.com"><img src="twitter.png" class="imgPie"></a>
+    </div>
+</body>
+</html>
